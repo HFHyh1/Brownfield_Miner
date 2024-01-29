@@ -13,8 +13,16 @@ import pytesseract
 # To remove the additional created files
 import os
 
+from wordOccurance import count_word_occurrences_with_locations
+
 # Find the PDF path
-pdf_path = 'fort1940.pdf'
+pdf_path = 'brownfield_pdfs/120 5th St/'
+filename = 'Remediation_Investigation_-_Monitoring_Analytical_Report__RI__-_EGLE_GSS__Vapor_Intrusion_Sampling_-_December_2022.PDF'
+hashedName = '642092ba2bf0137c7406086423834e8f'
+
+# pdf_path = 'brownfield_pdfs/120 5th St/'
+# filename = 'Remediation_Investigation_-_Monitoring_Analytical_Report__RI__-_EGLE_Laboratory__6_7_22_Water_Sampling_Results_-_2206061.PDF'
+# hashedName = '93bb157517e34c80670a25c60543ecd6'
 
 #  FUNCTIONS
 # Create a function to extract text
@@ -95,18 +103,23 @@ def table_converter(table):
     table_string = table_string[:-1]
     return table_string
 
-#  MAIN SCRIPT 
+def Logger( filename, linesToWrite)  :
+    with open(filename, "w") as file1:
+        for line in linesToWrite :
+            file1.write(line)
 
+#  MAIN SCRIPT 
+print("processing doc: " + pdf_path + filename)
 # create a PDF file object
-pdfFileObj = open(pdf_path, 'rb')
+pdfFileObj = open(pdf_path + filename, 'rb')
 # create a PDF reader object
 pdfReaded = PyPDF2.PdfReader(pdfFileObj)
 
 # Create the dictionary to extract text from each image
 text_per_page = {}
 # We extract the pages from the PDF
-for pagenum, page in enumerate(extract_pages(pdf_path)):
-    
+for pagenum, page in enumerate(extract_pages(pdf_path + filename)):
+    print(f"processing page - {pagenum}")
     # Initialize the variables needed for the text extraction from the page
     pageObj = pdfReaded.pages[pagenum]
     page_text = []
@@ -119,7 +132,7 @@ for pagenum, page in enumerate(extract_pages(pdf_path)):
     first_element= True
     table_extraction_flag= False
     # Open the pdf file
-    pdf = pdfplumber.open(pdf_path)
+    pdf = pdfplumber.open(pdf_path + filename)
     # Find the examined page
     page_tables = pdf.pages[pagenum]
     # Find the number of tables on the page
@@ -175,7 +188,7 @@ for pagenum, page in enumerate(extract_pages(pdf_path)):
                 lower_side = page.bbox[3] - tables[table_num].bbox[3]
                 upper_side = element.y1 
                 # Extract the information from the table
-                table = extract_table(pdf_path, pagenum, table_num)
+                table = extract_table(pdf_path + filename, pagenum, table_num)
                 # Convert the table information in structured string format
                 table_string = table_converter(table)
                 # Append the table string into a list
@@ -205,6 +218,35 @@ for pagenum, page in enumerate(extract_pages(pdf_path)):
     # Add the list of list as the value of the page key
     text_per_page[dctkey]= [page_text, line_format, text_from_images,text_from_tables, page_content]
 
+
+    # Display the content of the page
+    result = ''.join(text_per_page[dctkey][0])
+    print("page text")
+    Logger(f"{pdf_path}results/{hashedName}_Page_{dctkey}_text",result)
+    #print(result)
+
+    print("formatting")
+    result = ''.join(text_per_page[dctkey][1])
+    Logger(f"{pdf_path}results/{hashedName}_Page_{dctkey}_formatting",result)
+    #print(text_per_page[dctkey][1])
+
+    print("text image")
+    result = ''.join(text_per_page[dctkey][2])
+    Logger(f"{pdf_path}results/{hashedName}_Page_{dctkey}_image",result)
+    #print(result)
+
+    print("text tables")
+    result = ''.join(text_per_page[dctkey][3])
+    Logger(f"{pdf_path}results/{hashedName}_Page_{dctkey}_tables",result)
+    #print(result)
+
+    print("page content")
+    result = ''.join(text_per_page[dctkey][4])
+    Logger(f"{pdf_path}results/{hashedName}_Page_{dctkey}_content",result)
+    #print(result)
+
+    count_word_occurrences_with_locations(f"{pdf_path}results/{hashedName}_Page_{dctkey}_content", f"{pdf_path}results/WM_{hashedName}_{dctkey}.txt")
+
 # Closing the pdf file object
 pdfFileObj.close()
 
@@ -212,24 +254,6 @@ pdfFileObj.close()
 os.remove('cropped_image.pdf')
 os.remove('PDF_image.png')
 
-pagestringholder = 'Page_52'
 
-# Display the content of the page
-result = ''.join(text_per_page[pagestringholder][0])
-print("page text")
-print(result)
 
-print("formatting")
-print(text_per_page[pagestringholder][1])
 
-print("text image")
-result = ''.join(text_per_page[pagestringholder][2])
-print(result)
-
-print("text tables")
-result = ''.join(text_per_page[pagestringholder][3])
-print(result)
-
-print("page content")
-result = ''.join(text_per_page[pagestringholder][4])
-print(result)

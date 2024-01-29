@@ -6,6 +6,8 @@ import csv
 from PyPDF2 import PdfReader
 import hashlib
 
+from ExtractTxtClass import TextExtractor
+
 #  code starts here
 #=======================
 #===================
@@ -82,6 +84,11 @@ print(foldersToCheck)
 
 #   this gets all filenames
 for afolder in foldersToCheck:
+    try:
+        os.mkdir(fileconnectPath + "/" + afolder + "/results")
+    except OSError as error:  
+        print(error) 
+
     for afilename in os.listdir(fileconnectPath + "/" + afolder):
         try:
             filesize = os.path.getsize(fileconnectPath + "/" + afolder + "/" + afilename)
@@ -125,6 +132,10 @@ for anItem in useFulFiles:
     print("==")
     makeHashed = Parse_PDF_item(anItem.folderSource, anItem.fileName, anItem.fileSize, itemFullFilename, itemPageSize, firstpageText, itemHashHex)
     hashedAndPrepped.append(makeHashed)
+    try:
+        os.mkdir(fileconnectPath + "/" + makeHashed.folderSource + "/results/" + makeHashed.hashValue)
+    except OSError as error:  
+        print(error) 
 
 print()
 print()
@@ -140,4 +151,9 @@ Logger(resultFilename, HusefulFileSizes)
 #   END
 #===================
 print("done - > Look for results in file: " + resultFilename)
-elfin = input()
+elfin = input("Continue..")
+
+Extractor = TextExtractor(hashedAndPrepped)
+digResult = Extractor.ProcessExtractPDFs()
+print(digResult)
+elfin = input("End..")
