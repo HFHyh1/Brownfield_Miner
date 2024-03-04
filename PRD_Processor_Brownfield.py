@@ -151,7 +151,7 @@ Logger(resultFilename, HusefulFileSizes)
 #   END
 #===================
 print("done - > Look for results in file: " + resultFilename)
-elfin = input("Continue..")
+elfin = input("Continue.. stop here to read just the index")
 
 Extractor = TextExtractor(hashedAndPrepped)
 digResult = Extractor.ProcessExtractPDFs()

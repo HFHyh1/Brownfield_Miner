@@ -14,6 +14,10 @@ import pytesseract
 import os
 from dataclasses import dataclass
 from datetime import datetime
+import string
+from Lookups import mostCommonWords
+
+import string
 
 @dataclass
 class Parse_PDF_item:
@@ -39,6 +43,13 @@ class TextExtractor:
         pass
 
     #  FUNCTIONS
+    def remove_punctuation(self, input_string):
+        # Make a translator object to remove all punctuation except /
+        translator = str.maketrans('', '', string.punctuation.replace('/', '').replace('.', '').replace(',', '.-'))
+        # Use the translator object to remove punctuation
+        no_punct = input_string.translate(translator)
+        return no_punct
+
     # Create a function to extract text
 
     def text_extraction(self, element):
@@ -134,18 +145,24 @@ class TextExtractor:
             # Create a dictionary to store word occurrences and their locations
             word_data = {}
             for index, word in enumerate(words):
-                word = word.lower()  # Convert to lowercase to treat words case-insensitively
-                if word in word_data:
-                    word_data[word]['count'] += 1
-                    word_data[word]['locations'].append(index)
-                else:
-                    word_data[word] = {'count': 1, 'locations': [index]}
+                
+                translator = str.maketrans('', '', "[]|!@#$^&*()?")
+                # Use translate() to remove all punctuation characters from the text
+                cleanedword = word.translate(translator)
+                cleanedword = cleanedword.strip()
+                if (len(cleanedword) > 1 and mostCommonWords.count(cleanedword) < 1 ):
+                    cleanedword = cleanedword.lower()  # Convert to lowercase to treat words case-insensitively
+                    if cleanedword in word_data:
+                        word_data[cleanedword]['count'] += 1
+                        word_data[cleanedword]['locations'].append(index)
+                    else:
+                        word_data[cleanedword] = {'count': 1, 'locations': [index]}
 
         # Convert the word_data dictionary to the desired output format
-        result_data = [{"word": word, "count": data['count'], "locations": data['locations']} for word, data in word_data.items()]
+        result_data = [{"word": self.remove_punctuation(word), "count": data['count'], "locations": data['locations']} for word, data in word_data.items()]
 
         # Write the results to the output text file
-        with open(Mapoutput_file_path, 'w') as output_file:
+        with open(Mapoutput_file_path, 'w', encoding="utf-8") as output_file:
             for result in result_data:
                 output_file.write(f"{result['word']}: {result['count']}, {result['locations']}\n")
 
