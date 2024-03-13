@@ -73,6 +73,8 @@ Python exports readable text to an array of plaintext files.
 - For each page, there is a word-map file detailing the words on the content page and their locations.
 
 Here is an example source folder with multiple reports per address. The results subdirectory here will contain the text extracted.
+[![Script Image](https://raw.githubusercontent.com/HFHyh1/Brownfield_Miner/main/folderstructure.png)]
+
 
 Here is the directory structure and the plaintext files generated per document. You can see the directory is the unique hash-name of the document and each page has associated text files labeled accordingly.
 
