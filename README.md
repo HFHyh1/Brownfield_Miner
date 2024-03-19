@@ -73,12 +73,14 @@ Python exports readable text to an array of plaintext files.
 - For each page, there is a word-map file detailing the words on the content page and their locations.
 
 Here is an example source folder with multiple reports per address. The results subdirectory here will contain the text extracted.
-[![Script Image](https://raw.githubusercontent.com/HFHyh1/Brownfield_Miner/main/folderstructure.png)]
+![Script Image](https://raw.githubusercontent.com/HFHyh1/Brownfield_Miner/main/folderstructure.png)
 
 
 Here is the directory structure and the plaintext files generated per document. You can see the directory is the unique hash-name of the document and each page has associated text files labeled accordingly.
+![Script Image](https://raw.githubusercontent.com/HFHyh1/Brownfield_Miner/main/resultstructure.png)
 
 Here is the example of a single page of a PDF. The word-map is the frequency and location of each word in the page.
+![Script Image](https://raw.githubusercontent.com/HFHyh1/Brownfield_Miner/main/filemapping.png)
 
 ## 4. Parse Tabular Data and Save CSVs
 
@@ -90,7 +92,7 @@ Here is the example of a single page of a PDF. The word-map is the frequency and
 ## Flowchart of Process
 
 *Note: this is slightly outdated and not totally accurate. But it does illustrate the overall concepts well. Update in future.*
-
+![FlowChart](https://raw.githubusercontent.com/HFHyh1/Brownfield_Miner/main/BasicFlowchart.png)
 --- 
 
 # Credits
