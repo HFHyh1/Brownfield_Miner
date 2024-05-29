@@ -82,11 +82,30 @@ Here is the directory structure and the plaintext files generated per document. 
 Here is the example of a single page of a PDF. The word-map is the frequency and location of each word in the page.
 ![Script Image](https://raw.githubusercontent.com/HFHyh1/Brownfield_Miner/main/filemapping.png)
 
-## 4. Parse Tabular Data and Save CSVs
+## 4.  Isolate Report Pages
 
-### Isolate Report Pages
+We need to find the pages in the documents which contain tables with relevant data. This will seperate these plaintext documents for further processing.
 
-### Format and Export CSVs
+- Using wordmap from previous step, look for keywords that denote a page has relevant data in it.
+- Python reads each wordmap and copies it to another directory if the page contains keywords from a user supplied set. 
+
+## 5. Convert Plain Text Tables to CSV
+A trained Gemini LLM instance will be utilized to read the text files and parse out a table structure. This will be formatted as a CSV and output by the instance.
+
+- using python, send requests with plaintext of each individual page in directories to the Gemini API for processing.
+- API will respond with formatted text from the output. Python receives this and then writes a CSV file with the response.
+
+## 6. Consistency and Content QA
+We need to make sure the csv tables extracted by Gemini LLM adhere to a consistent structure and have the same variables.
+
+- Using python, check header row and number of columns. 
+- If inconsistent then flag file for further review.
+
+## 7. Output folder structure for SAS
+Copy checked result files to a directory that will be read by SAS program.
+
+- adhere to shallow/wide directory structure that is easy to read into SAS
+- seperate by report type and address
 
 ---
 ## Flowchart of Process
