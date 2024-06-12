@@ -1,0 +1,83 @@
+||None||Residential|None|None|None|None|None|None|None|Sample Location|17676 Mt. Elliott|17676 Mt. Elliott|17676 Mt. Elliott|
+|Constituent*|Chemical Abstract Service Number|Statewide Default Background Levels|Drinking Water Protection Criteria|Groundwater Surface Water Interface Protection Criteria|Soil Volatilization to Indoor Air Inhalation Criteria|Infinite Source Volatile Soil Inhalation Criteria (VSIC)|Finite VSIC for 5 Meter Source Thickness|Finite VSIC for 2 Meter Source Thickness|Particulate Soil Inhalation Criteria|Direct Contact Criteria|None|None|None|None|
+|None|None|None|None|None|None|None|None|None|None|None|Sample Identification|West Wall (5‐ 6')S|Bottom North (8.5‐ 9')S|Bottom South (8.5‐ 9')S|
+|None|None|None|None|None|None|None|None|None|None|None|Collection Date|2/2/2018|2/2/2018|2/2/2018|
+|*(Refer to detailed laboratory report for method reference data)|None|None|None|None|None|None|None|None|None|None|None|None|None|None|
+|None|None|None|None|None|None|None|None|None|None|None|Depth|5‐6 feet|8.5‐9 feet|8.5‐9 feet|
+|Volatiles|||||||||||||||
+|Acrylonitrile (I)|107‐13‐1|NA|100 (M); 52|100 (M); 40|6,600|5,000|5,100|10,000|4.6E+7|16,000||ND|ND|ND|
+|Benzene (I)|71‐43‐2|NA|100|4,000 (X)|1,600|13,000|34,000|79,000|3.8E+8|1.8E+5||ND|ND|ND|
+|Bromochloromethane|74‐97‐5|NA|NA|NA|NA|NA|NA|NA|NA|NA||ND|ND|ND|
+|Bromodichloromethane|75‐27‐4|NA|1,600 (W)|ID|1,200|9,100|9,700|19,000|8.4E+7|1.1E+5||ND|ND|ND|
+|Bromoform|75‐25‐2|NA|1,600 (W)|ID|1.5E+5|9.0E+5|9.0E+5|9.0E+5|2.8E+9|8.2E+5||ND|ND|ND|
+|Bromomethane|74‐83‐9|NA|200|700|860|11,000|57,000|1.4E+5|3.3E+8|3.2E+5||ND|ND|ND|
+|2‐Butanone (MEK) (I)|78‐93‐3|NA|2.6E+5|44,000|5.4E+7 (C)|2.9E+7|2.9E+7|3.5E+7|6.7E+10|1.2E+8 (C,DD)||ND|ND|ND|
+|n‐Butylbenzene|104‐51‐8|NA|1,600|ID|ID|ID|ID|ID|2.0E+9|2.5E+6||ND|ND|ND|
+|sec‐Butylbenzene|135‐98‐8|NA|1,600|ID|ID|ID|ID|ID|4.0E+8|2.5E+6||ND|ND|ND|
+|tert‐Butylbenzene (I)|98‐06‐6|NA|1,600|ID|ID|ID|ID|ID|6.7E+8|2.5E+6||ND|ND|ND|
+|Carbon disulfide (I,R)|75‐15‐0|NA|16,000|ID|76,000|1.3E+6|7.9E+6|1.9E+7|4.7E+10|7.2E+6 (C,DD)||ND|ND|ND|
+|Carbon tetrachloride|56‐23‐5|NA|100|900 (X)|190|3,500|12,000|28,000|1.3E+8|96,000||ND|ND|ND|
+|Chlorobenzene (I)|108‐90‐7|NA|2,000|500|1.2E+5|7.7E+5|9.9E+5|2.1E+6|4.7E+9|4.3E+6 (C)||ND|ND|ND|
+|Chloroethane|75‐00‐3|NA|8,600|22,000 (X)|2.9E+6 (C)|3.0E+7|1.2E+8|2.8E+8|6.7E+11|2.6E+6 (C)||ND|ND|ND|
+|Chloroform|67‐66‐3|NA|1,600 (W)|7,000|7,200|45,000|1.2E+5|2.7E+5|1.3E+9|1.2E+6||ND|ND|ND|
+|Chloromethane (I)|74‐87‐3|NA|5,200|ID|2,300|40,000|4.1E+5|1.0E+6|4.9E+9|1.6E+6 (C)||ND|ND|ND|
+|Cyclohexanone|108‐94‐1|NA|5.2E+6|NA|17,000|1.0E+6|1.1E+7|2.7E+7|6.7E+10|1.0E+9 (C,D)||ND|ND|ND|
+|Dibromochloromethane|124‐48‐1|NA|1,600 (W)|ID|3,900|24,000|24,000|33,000|1.3E+8|1.1E+5||ND|ND|ND|
+|Dibromomethane|74‐95‐3|NA|1,600|NA|ID|ID|ID|ID|ID|2.5E+6 (C)||ND|ND|ND|
+|1,2‐Dichlorobenzene|95‐50‐1|NA|14,000|280|1.1E+7 (C)|3.9E+7|3.9E+7|5.2E+7|1.0E+11|1.9E+7 (C)||ND|ND|ND|
+|1,3‐Dichlorobenzene|541‐73‐1|NA|170|680|26,000|79,000|79,000|1.1E+5|2.0E+8|2.0E+5 (C)||ND|ND|ND|
+|1,4‐Dichlorobenzene|106‐46‐7|NA|1,700|360|19,000|77,000|77,000|1.1E+5|4.5E+8|4.0E+5||ND|ND|ND|
+|Dichlorodifluoromethane|75‐71‐8|NA|95,000|ID|9.0E+5|5.3E+7|5.5E+8|1.4E+9|3.3E+12|5.2E+7 (C)||ND|ND|ND|
+|1,1‐Dichloroethane|75‐34‐3|NA|18,000|15,000|2.3E+5|2.1E+6|5.9E+6|1.4E+7|3.3E+10|2.7E+7 (C)||ND|ND|ND|
+|1,2‐Dichloroethane (I)|107‐06‐2|NA|100|7,200 (X)|2,100|6,200|11,000|26,000|1.2E+8|91,000||ND|ND|ND|
+|cis‐1,2‐Dichloroethylene|156‐59‐2|NA|1,400|12,000|22,000|1.8E+5|4.2E+5|9.9E+5|2.3E+9|2.5E+6 (C)||ND|ND|ND|
+|trans‐1,2‐Dichloroethylene|156‐60‐5|NA|2,000|30,000 (X)|23,000|2.8E+5|8.3E+5|2.0E+6|4.7E+9|3.8E+6 (C)||ND|ND|ND|
+|1,1‐Dichloroethylene (I)|75‐35‐4|NA|140|2,600|62|1,100|5,300|13,000|6.2E+7|2.0E+5||ND|ND|ND|
+|1,2‐Dichloropropane (I)|78‐87‐5|NA|100|4,600 (X)|4,000|25,000|50,000|1.1E+5|2.7E+8|1.4E+5||ND|ND|ND|
+|cis‐1,3‐Dichloropropylene|10061‐01‐5|NA|NA|NA|NA|NA|NA|NA|NA|NA||ND|ND|ND|
+|trans‐1,3‐Dichloropropylene|10061‐02‐6|NA|NA|NA|NA|NA|NA|NA|NA|NA||ND|ND|ND|
+|Ethylbenzene (I)|100‐41‐4|NA|1,500|360|87,000|7.2E+5|1.0E+6|2.2E+6|1.0E+10|2.2E+7 (C)||ND|ND|ND|
+|Ethylene dibromide|106‐93‐4|NA|20 (M); 1.0|110 (X)|670|1,700|1,700|3,300|1.4E+7|92||ND|ND|ND|
+|2‐Hexanone|591‐78‐6|NA|20,000|ID|9.9E+5|1.1E+6|1.1E+6|1.4E+6|2.7E+9|3.2E+7 (C)||ND|ND|ND|
+|Isopropyl benzene|98‐82‐8|NA|91,000|3,200|4.0E+5 (C)|1.7E+6|1.7E+6|2.8E+6|5.8E+9|2.5E+7 (C)||ND|ND|ND|
+|Methylene chloride|75‐09‐2|NA|100|30,000 (X)|45,000|2.1E+5|5.9E+5|1.4E+6|6.6E+9|1.3E+6||ND|ND|ND|
+|2‐Methylnaphthalene|91‐57‐6|NA|57,000|4,200|2,700,000|1.50E+06|1.50E+06|1.50E+06|6.70E+08|8.10E+06||ND|ND|ND|
+|Methyl‐tert‐butyl ether (MTBE)|1634‐04‐4|NA|800|1.4E+5 (X)|9.9E+6 (C)|2.5E+7|3.9E+7|8.7E+7|2.0E+11|1.5E+6||ND|ND|ND|
+|Naphthalene|91‐20‐3|NA|35,000|730|2.5E+5|3.0E+5|3.0E+5|3.0E+5|2.0E+8|1.6E+7||ND|ND|ND|
+|Pentane|109‐66‐0|NA|ID|NA|9.7E+5 (C)|3.7E+7|3.1E+8|5.8E+8|1.2E+12|ID||ND|ND|ND|
+|n‐Propylbenzene (I)|103‐65‐1|NA|1,600|ID|ID|ID|ID|ID|1.3E+9|2.5E+6||ND|ND|ND|
+|Styrene|100‐42‐5|NA|2,700|2,100 (X)|2.5E+5|9.7E+5|9.7E+5|1.4E+6|5.5E+9|4.0E+5||ND|ND|ND|
+|1,1,1,2‐Tetrachloroethane|630‐20‐6|NA|1,500|ID|6,200|36,000|54,000|1.0E+5|4.2E+8|4.8E+5 (C)||ND|ND|ND|
+|1,1,2,2‐Tetrachloroethane|79‐34‐5|NA|170|1,600 (X)|4,300|10,000|10,000|14,000|5.4E+7|53,000||ND|ND|ND|
+|Tetrachloroethylene|127‐18‐4|NA|100|1,200 (X)|11,000|1.7E+5|4.8E+5|1.1E+6|2.7E+9|2.0E+5 (C)||ND|ND|ND|
+|Tetrahydrofuran|109‐99‐9|NA|1,900|2.2E+5 (X)|1.3E+6|1.3E+7|6.7E+7|1.6E+8|3.9E+11|2.9E+6||ND|ND|ND|
+|Toluene (I)|108‐88‐3|NA|16,000|5,400|3.3E+5 (C)|2.8E+6|5.1E+6|1.2E+7|2.7E+10|5.0E+7 (C)||ND|ND|ND|
+|1,1,2‐Trichloro‐1,2,2‐trifluoroethane|76‐13‐1|NA|9.0E+6 (C)|1,700|5.1E+6 (C)|1.8E+8|8.8E+8|2.1E+9|5.1E+12|1.0E+9 (C,D)||ND|ND|ND|
+|1,2,4‐Trichlorobenzene|120‐82‐1|NA|4,200|5,900 (X)|9.6E+6 (C)|2.8E+7|2.8E+7|2.8E+7|2.5E+10|9.9E+5 (DD)||ND|ND|ND|
+|1,1,1‐Trichloroethane|71‐55‐6|NA|4,000|1,800|2.5E+5|3.8E+6|1.2E+7|2.8E+7|6.7E+10|5.0E+8 (C)||ND|ND|ND|
+|1,1,2‐Trichloroethane|79‐00‐5|NA|100|6,600 (X)|4,600|17,000|21,000|44,000|1.9E+8|1.8E+5||ND|ND|ND|
+|Trichloroethylene|79‐01‐6|NA|100|4,000 (X)|1,000|11,000|25,000|57,000|1.3E+8|1.1E+5 (DD)||ND|ND|ND|
+|Trichlorofluoromethane|75‐69‐4|NA|52,000|NA|2.8E+6 (C)|9.2E+7|6.3E+8|1.5E+9|3.8E+12|7.9E+7 (C)||ND|ND|ND|
+|1,2,3‐Trichloropropane|96‐18‐4|NA|840|NA|4,000|9,200|9,200|11,000|2.0E+7|1.3E+6 (C)||ND|ND|ND|
+|1,2,4‐Trimethylbenzene (I)|95‐63‐6|NA|2,100|570|4.3E+6 (C)|2.1E+7|5.0E+8|5.0E+8|8.2E+10|3.2E+7 (C)||ND|ND|ND|
+|1,3,5‐Trimethylbenzene (I)|108‐67‐8|NA|1,800|1,100|2.6E+6 (C)|1.6E+7|3.8E+8|3.8E+8|8.2E+10|3.2E+7 (C)||ND|ND|ND|
+|Vinyl chloride|75‐01‐4|NA|40|260 (X)|270|4,200|30,000|73,000|3.5E+8|3,800||ND|ND|ND|
+|Xylenes (I)|1330‐20‐7|NA|5,600|820|6.3E+6 (C)|4.6E+7|6.1E+7|1.3E+8|2.9E+11|4.1E+8 (C)||ND|ND|ND|
+||||||||||||||||
+|Semivolatiles|||||||||||||||
+|Acenaphthene|83‐32‐9|NA|3.0E+5|8,700|1.9E+8|8.1E+7|8.1E+7|8.1E+7|1.4E+10|4.1E+7||ND|ND|ND|
+|Acenaphthylene|208‐96‐8|NA|5,900|ID|1.6E+6|2.2E+6|2.2E+6|2.2E+6|2.3E+9|1.6E+6||ND|ND|ND|
+|Anthracene|120‐12‐7|NA|41,000|ID|1.0E+9 (D)|1.4E+9|1.4E+9|1.4E+9|6.7E+10|2.3E+8||ND|ND|ND|
+|Benzo(a)anthracene (Q)|56‐55‐3|NA|NLL|NLL|NLV|NLV|NLV|NLV|ID|20,000||ND|ND|ND|
+|Benzo(a)pyrene (Q)|50‐32‐8|NA|NLL|NLL|NLV|NLV|NLV|NLV|1.5E+6|2,000||ND|ND|ND|
+|Benzo(b)fluoranthene (Q)|205‐99‐2|NA|NLL|NLL|ID|ID|ID|ID|ID|20,000||ND|ND|ND|
+|Benzo(g,h,i)perylene|191‐24‐2|NA|NLL|NLL|NLV|NLV|NLV|NLV|8.0E+8|2.5E+6||ND|ND|ND|
+|Benzo(k)fluoranthene (Q)|207‐08‐9|NA|NLL|NLL|NLV|NLV|NLV|NLV|ID|2.0E+5||ND|ND|ND|
+|Chrysene (Q)|218‐01‐9|NA|NLL|NLL|ID|ID|ID|ID|ID|2.0E+6||ND|ND|ND|
+|Dibenzo(a,h)anthracene (Q)|53‐70‐3|NA|NLL|NLL|NLV|NLV|NLV|NLV|ID|2,000||ND|ND|ND|
+|Fluoranthene|206‐44‐0|NA|7.3E+5|5,500|1.0E+9 (D)|7.4E+8|7.4E+8|7.4E+8|9.3E+9|4.6E+7||ND|ND|ND|
+|Fluorene|86‐73‐7|NA|3.9E+5|5,300|5.8E+8|1.3E+8|1.3E+8|1.3E+8|9.3E+9|2.7E+7||ND|ND|ND|
+|Indeno(1,2,3‐cd)pyrene (Q)|193‐39‐5|NA|NLL|NLL|NLV|NLV|NLV|NLV|ID|20,000||ND|ND|ND|
+|Phenanthrene|85‐01‐8|NA|56,000|2,100|2.8E+6|1.6E+5|1.6E+5|1.6E+5|6.7E+6|1.6E+6||ND|ND|ND|
+|Pyrene|129‐00‐0|NA|4.8E+5|ID|1.0E+9 (D)|6.5E+8|6.5E+8|6.5E+8|6.7E+9|2.9E+7||ND|ND|ND|
+||||||||||||||||

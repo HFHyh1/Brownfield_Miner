@@ -1,0 +1,8 @@
+|BTSW (7.5)|Below tank, southwest corner/brown sand|7.5|4.7|
+|BTNE (7.5)|Below tank, northeast corner/brown sand|7.5|3.9|
+|SW-N|Side wall, north/brown sand|5-5.5|0.8|
+|SW-S|Side wall, north/brown sand|5-6|2.8|
+|SW-E|Side wall, east/brown sand|5-6|1.6|
+|SW-W|Side wall, west/brown sand|5-6|4.3|
+|BN|Bottom, north/brown sand|8.5-9|1.2|
+|BS|Bottom, south/brown sand|8.5-9|2.7|

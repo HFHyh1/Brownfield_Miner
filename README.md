@@ -7,9 +7,8 @@ Developers are welcome to fork the repository and contribute.
 
 Our objective is to extract tabular data from a collection of diverse PDF documents and convert it into a structured format (CSV files) for further analysis.
 
-The documents lack consistency in table placement and formatting.
-They originate from various organizations and potentially exhibit different layouts.
-A portion of the PDFs are scanned images, while others incorporated Optical Character Recognition (OCR) technology when scanned, and finally there are also electronically generated documents of text and markdown elements.
+The documents lack consistency in table placement and formatting. They originate from various organizations and potentially exhibit different layouts. A portion of the PDFs are scanned images, while others incorporated Optical Character Recognition (OCR) technology when scanned, and finally there are also electronically generated documents of text and markdown elements.
+
 
 **Solution Designed:**
 
@@ -38,6 +37,27 @@ More information:
 
 ---
 
+# Package Instructions
+
+**Note: this repository already contains and example of a run of two addresses. You can delete the existing files inside the directories and then follow instructions below to run it on your own. Be sure to have all required libraries installed prior to running the python scripts.**
+Do not delete the directories themselves, only the files inside them (with exception of the results folder inside each address folder).
+- all the *~/SRC_brownfield_pdfs/ADDRESS/results* contents and the results folder itself. Leave the address folder intact.
+- contents of *~/CompletedReport_pages/*
+- contents of *~/Gemini/textSource_Documents/*
+- contents of *~/Gemini/CSV_Results/*
+
+### After clearing the example results
+1. Run script ==**PRD_Processor_Brownfield.py**== using python in Terminal/Command-Line. This will convert the PDFs to raw text.
+2. Run script ==**FindReportPages.py**== using python in Terminal/Command-Line. This will seperate only those pages which are considered relevant using the wordmaps and keyword set.
+3. Copy the files from *~/CompletedReport_pages/* to --> *~/Gemini/textSource_Documents/*, this must be done manually before running the next steps using Gemini.
+4. Get an API key from Gemini console and copy it to the relevant variable in **GeminiAPIQueryLib.py**, you must acquire your own key for this script to work.
+5. Run script ==**FindReportPages.py**== using python in Terminal/Command-Line. This will iterate all text documents in the *~/Gemini/textSource_Documents/* and send them to LLM API for processing. The response will be saved under the directory *~/Gemini/CSV_Results/* as both a TXT file and a related CSV file.
+
+#### View final results in --> ~/Gemini/CSV_Results/
+*Note: some additional cleaning and normalizing may be required before using the CSVs in SAS, R, or other software.*
+
+---
+
 # Method
 
 ## 1. Get Documents
@@ -49,7 +69,7 @@ Download to local filesystem - PDF documents which were uploaded to cloud by par
 -	Saved in folder named by Street Address of location.
 -	Each folder contains multiple PDF documents associated. Note: not every document is important to extract textual/table data from like correspondence for example.
 
--	Included files in repository for one Brownfield location. These can be used in your testing and development.
+-	Included files in repository for two Brownfield locations. These can be used in your testing and development.
 
 ## 2. Index and Filter
 

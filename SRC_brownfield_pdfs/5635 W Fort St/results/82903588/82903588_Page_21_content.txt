@@ -1,0 +1,52 @@
+B AKTPEERLESS
+
+Cc. Provide the calculations and reference citations supporting the development of the
+relevant Tier II or Tier III SSTLs.
+
+Not applicable.
+
+D. Provide a table which compares the maximum remaining contaminant
+concentrations for each required parameter for all media to the appropriate RBSLs
+and the calculated SSTLs. Identify all applicable land use scenario(s), and indicate
+whether or not there is an exceedance of the RBSLs or the SSTLs.
+
+Not applicable.
+
+6.3 MODELING
+
+Contaminant plume fate and transport modeling was not conducted as part of this assessment.
+
+7.0 CORRECTIVE ACTION PLAN
+71 DESCRIPTION OF THE CORRECTIVE ACTION PLAN
+
+A. Describe the corrective action to be implemented at the facility and the anticipated
+cleanup goals.
+
+Remedial excavation of approximately 10 cubic yards of soil occurred during UST removal.
+Verification of soil remediation (VSR), in accordance with Sampling Strategies and Statistics
+Training Materials S3TM, soil samples were collected and submitted for laboratory analysis.
+Based on the results, no further corrective action is necessary.
+
+B. Attach a schematic drawing of the remedial system to be employed.
+
+Not applicable.
+
+Cc; Provide site maps and diagrams depicting capture zones/zones of influence, system
+layout, and anticipated system injection and/or extraction rates.
+
+Not applicable.
+
+D. Provide a contingency plan to be implemented if the corrective action is ineffective.
+
+Not applicable.
+
+7.2 AIR QUALITY MONITORING
+
+Describe the ambient or indoor air quality monitoring that will be conducted during the
+implementation of the corrective action and include the following: (1) Air sampling
+locations, (2) Analytical parameters to be monitored, (3) The action level for each
+parameter, and the basis for the action level, (4) The monitoring device(s) to be used, (5)
+The monitoring frequency, and (6) The procedure that will be followed if the action level(s)
+is/are exceeded.
+
+Not applicable.

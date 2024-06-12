@@ -1,0 +1,56 @@
+Instructions - Utilize the following table of contents (TOC) to ensure that all required information, as
+applicable, is provided in the Closure Report. Include the report cover sheet and pages 1 through 2 of
+the TOC. The format in which the information is provided within each section is at your discretion.
+Each page of the report (including the cover sheet, 2 pages of the TOC, figures, table, appendices, etc.)
+should be consecutively numbered. The column labeled as “Page(s)” should be completed with the
+range of page numbers for each section. Please reference previously submitted material by specifying
+where the information is located within the referenced document. Submit the documentation
+identified in Section IV, as applicable, if IAR/FAR was not previously submitted or additional site
+characterization was performed following submittal of FAR.
+
+All information required by Part 213 and ASTM documents E 1739-95 (2010), E 2081-00 (2010), and
+E 2531-06 must be included as required by site conditions. The DEQ may request supporting
+documentation to the data and conclusions of the Closure Report.
+
+CLOSURE REPORT TABLE OF CONTENTS PAGE(S)
+
+(Page 1 of 2)
+
+|. Summary of Corrective Action Activities and Documentation of
+
+the Basis for Concluding that Corrective Actions Have Been
+Completed ee
+a) A summary of the current and completed corrective actions
+activities, _13-16_
+b) identify chemical(s) of concern (CoCs), their source location(s)
+and remaining maximum concentrations of CoCs in soil and pela
+groundwater, a el
+c) summary of Non-aqueous Phase Liquid (NAPL) remaining, “10-13
+d) human and environmental receptor locations that could be = er
+impacted (point(s) of exposure), 10-13
+
+e) identify any complete transport and exposure pathways
+(dissolved plume, vapor migration through soils, utilities,
+
+etc.), sas
+f) current or potential future use of the site and surrounding land,
+and of the groundwater, surface water and sensitive habitats, 2-3
+
+g) final Conceptual Site Model (CSM) / NAPL CSM,
+h) summary and discussion of the risk assessment and RBCA tier
+
+evaluation 2=10213%-
+
+Reference: Part 213, Sec. 21311a(a) and Sec. 21312a ASTM E1739-95 (2010) Sec. 6.2, Sec.
+6.11 through 6.11.19 ASTM 2531-06 Section 6.3 Conceptual Site Models/LCSMs: Part 213
+Sec. 21309a. (2)(a), Sec. 21311a.(1)(c)(i) and Sec 21312a, ASTM 2531-06 Sections 6 and 7,
+ASTM E2081-00 (2010) Sec. 3.2.52
+
+1. Closure Verification Sampling Results 16.
+
+A summary of the analytical data and the appropriate RBSL or SSTL
+used (table form)
+
+a) Maps and Drawings: __Figures 1-6_
+b) Asite map of the location __ Figures 2
+

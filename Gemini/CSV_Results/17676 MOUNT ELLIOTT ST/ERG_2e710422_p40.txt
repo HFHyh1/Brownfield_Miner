@@ -1,0 +1,41 @@
+```csv
+"Analyzed Date","QC Batch","Qualifier","CAS #","Analyte","Result","RL","Units","Dilution","Method"
+"02/06/18","B8B0608","","75-71-8","Dichlorodifluoromethane","ND","50","ug/kg dry","","8260"
+"02/06/18","B8B0608","","60-29-7","Diethyl ether","ND","50","ug/kg dry","","8260"
+"02/06/18","B8B0608","","108-20-3","Diisopropyl Ether","ND","50","ug/kg dry","","8260"
+"02/06/18","B8B0608","","100-41-4","Ethylbenzene","ND","50","ug/kg dry","","8260"
+"02/06/18","B8B0608","","637-92-3","Ethyltertiarybutylether","ND","50","ug/kg dry","","8260"
+"02/06/18","B8B0608","","67-72-1","Hexachloroethane","ND","50","ug/kg dry","","8260"
+"02/06/18","B8B0608","","110-54-3","Hexane","ND","50","ug/kg dry","","8260"
+"02/06/18","B8B0608","","98-82-8","Isopropylbenzene","ND","50","ug/kg dry","","8260"
+"02/06/18","B8B0608","","1330-20-7","m & p - Xylene","ND","50","ug/kg dry","","8260"
+"02/06/18","B8B0608","","75-09-2","Methylene chloride","ND","50","ug/kg dry","","8260"
+"02/06/18","B8B0608","X","","1634-04-4","Methyltertiarybutylether","ND","50","ug/kg dry","","8260"
+"02/06/18","B8B0608","","91-20-3","Naphthalene","ND","50","ug/kg dry","","8260"
+"02/06/18","B8B0608","","104-51-8","n-Butylbenzene","ND","50","ug/kg dry","","8260"
+"02/06/18","B8B0608","","103-65-1","n-Propylbenzene","ND","50","ug/kg dry","","8260"
+"02/06/18","B8B0608","","95-47-6","o-Xylene","ND","50","ug/kg dry","","8260"
+"02/06/18","B8B0608","","135-98-8","sec-Butylbenzene","ND","50","ug/kg dry","","8260"
+"02/06/18","B8B0608","","100-42-5","Styrene","ND","50","ug/kg dry","","8260"
+"02/06/18","B8B0608","","98-06-6","tert-Butylbenzene","ND","50","ug/kg dry","","8260"
+"02/06/18","B8B0608","","75-65-0","tertiary Butyl Alcohol","ND","50","ug/kg dry","","8260"
+"02/06/18","B8B0608","","994-05-8","tertiaryAmylmethylether","ND","50","ug/kg dry","","8260"
+"02/06/18","B8B0608","","127-18-4","Tetrachloroethylene","ND","50","ug/kg dry","","8260"
+"02/06/18","B8B0608","","109-99-9","Tetrahydrofuran","ND","50","ug/kg dry","","8260"
+"02/06/18","B8B0608","","108-88-3","Toluene","ND","50","ug/kg dry","","8260"
+"02/06/18","B8B0608","","156-60-5","trans-1,2-Dichloroethylene","ND","50","ug/kg dry","","8260"
+"02/06/18","B8B0608","","10061-02-6","trans-1,3-Dichloropropylene","ND","50","ug/kg dry","","8260"
+"02/06/18","B8B0608","","79-01-6","Trichloroethylene","ND","50","ug/kg dry","","8260"
+"02/06/18","B8B0608","","75-69-4","Trichlorofluoromethane","ND","50","ug/kg dry","","8260"
+"02/06/18","B8B0608","","75-01-4","Vinyl chloride","ND","50","ug/kg dry","","8260"
+"02/06/18","B8B0608","","","Surrogate: Bromofluorobenzene","124 %","40.3-194","","8260"
+"02/06/18","B8B0608","","","Surrogate: Dibromofluoromethane","120 %","52.1-217","","8260"
+"02/06/18","B8B0608","","","Surrogate: Toluene-d8","117 %","55.4-196","","8260"
+```
+
+
+
+
+
+
+

@@ -1,0 +1,297 @@
+STATE OF MICHIGAN
+
+DEPARTMENT OF ENVIRONMENTAL QUALITY
+MICHIGAN DEPARTMENT OF ENVIRONMENTAL QUALITY
+ENVIRONMENTAL LABORATORY
+P.O. Box 30270
+Lansing, MI 48909
+TEL: (517) 335-9800
+FAX: (517) 335-9600
+Client ID: WEST WALL (5-6’)S
+Lab ID: 1802021-04
+Analyzed
+Date
+QC Batch
+Qualifier
+CAS #
+Analyte
+Result
+RL
+Units
+Dilution
+Method
+Organics-Volatiles
+300
+75-71-8
+60-29-7
+108-20-3
+100-41-4
+637-92-3
+67-72-1
+110-54-3
+98-82-8
+1330-20-7
+75-09-2
+1634-04-4
+91-20-3
+104-51-8
+103-65-1
+95-47-6
+135-98-8
+100-42-5
+98-06-6
+75-65-0
+994-05-8
+127-18-4
+109-99-9
+108-88-3
+156-60-5
+10061-02-6
+79-01-6
+75-69-4
+75-01-4
+Dichlorodifluoromethane
+Diethyl ether
+Diisopropyl Ether
+Ethylbenzene
+Ethyltertiarybutylether
+Hexachloroethane
+Hexane
+Isopropylbenzene
+m & p - Xylene
+Methylene chloride
+Methyltertiarybutylether
+Naphthalene
+n-Butylbenzene
+n-Propylbenzene
+o-Xylene
+sec-Butylbenzene
+Styrene
+tert-Butylbenzene
+tertiary Butyl Alcohol
+tertiaryAmylmethylether
+Tetrachloroethylene
+Tetrahydrofuran
+Toluene
+trans-1,2-Dichloroethylene
+trans-1,3-Dichloropropylene
+Trichloroethylene
+Trichlorofluoromethane
+Vinyl chloride
+ND
+ND
+ND
+ND
+ND
+ND
+ND
+ND
+ND
+ND
+ND
+ND
+ND
+ND
+ND
+ND
+ND
+ND
+ND
+ND
+ND
+ND
+ND
+ND
+ND
+ND
+ND
+ND
+02/06/18
+50
+ug/kg dry
+B8B0608
+8260
+240
+02/06/18
+50
+ug/kg dry
+B8B0608
+8260
+300
+02/06/18
+50
+ug/kg dry
+B8B0608
+8260
+60
+02/06/18
+50
+ug/kg dry
+B8B0608
+8260
+300
+02/06/18
+50
+ug/kg dry
+B8B0608
+8260
+300
+02/06/18
+50
+ug/kg dry
+B8B0608
+8260
+60
+02/06/18
+50
+ug/kg dry
+B8B0608
+8260
+60
+02/06/18
+50
+ug/kg dry
+B8B0608
+8260
+120
+02/06/18
+50
+ug/kg dry
+B8B0608
+8260
+120
+02/06/18
+50
+ug/kg dry
+B8B0608
+8260
+60
+02/06/18
+50
+ug/kg dry
+B8B0608
+8260
+300
+02/06/18
+X
+50
+ug/kg dry
+B8B0608
+8260
+60
+02/06/18
+50
+ug/kg dry
+B8B0608
+8260
+60
+02/06/18
+50
+ug/kg dry
+B8B0608
+8260
+60
+02/06/18
+50
+ug/kg dry
+B8B0608
+8260
+60
+02/06/18
+50
+ug/kg dry
+B8B0608
+8260
+60
+02/06/18
+50
+ug/kg dry
+B8B0608
+8260
+60
+02/06/18
+50
+ug/kg dry
+B8B0608
+8260
+3000
+02/06/18
+50
+ug/kg dry
+B8B0608
+8260
+300
+02/06/18
+50
+ug/kg dry
+B8B0608
+8260
+60
+02/06/18
+50
+ug/kg dry
+B8B0608
+8260
+300
+02/06/18
+50
+ug/kg dry
+B8B0608
+8260
+60
+02/06/18
+50
+ug/kg dry
+B8B0608
+8260
+60
+02/06/18
+50
+ug/kg dry
+B8B0608
+8260
+60
+02/06/18
+50
+ug/kg dry
+B8B0608
+8260
+60
+02/06/18
+50
+ug/kg dry
+B8B0608
+8260
+60
+02/06/18
+50
+ug/kg dry
+B8B0608
+8260
+60
+02/06/18
+50
+ug/kg dry
+B8B0608
+8260
+40.3-194
+02/06/18
+B8B0608
+Surrogate: Bromofluorobenzene
+114 %
+8260
+52.1-217
+02/06/18
+B8B0608
+Surrogate: Dibromofluoromethane
+110 %
+8260
+55.4-196
+02/06/18
+B8B0608
+Surrogate: Toluene-d8
+109 %
+8260
+Lab Work Order # 1802021
+Page 13 of 21
+Page 13 of 21

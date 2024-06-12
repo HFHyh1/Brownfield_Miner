@@ -1,0 +1,208 @@
+STATE OF MICHIGAN
+
+DEPARTMENT OF ENVIRONMENTAL QUALITY
+MICHIGAN DEPARTMENT OF ENVIRONMENTAL QUALITY
+ENVIRONMENTAL LABORATORY
+P.O. Box 30270
+Lansing, MI 48909
+TEL: (517) 335-9800
+FAX: (517) 335-9600
+Client ID: SOUTH WALL (5-6’)S
+Lab ID: 1802021-02
+Analyzed
+Date
+QC Batch
+Qualifier
+CAS #
+Analyte
+Result
+RL
+Units
+Dilution
+Method
+See note Y20
+Organics-Semivolatiles
+550
+91-57-6
+83-32-9
+208-96-8
+120-12-7
+56-55-3
+50-32-8
+205-99-2
+191-24-2
+207-08-9
+218-01-9
+53-70-3
+206-44-0
+86-73-7
+193-39-5
+91-20-3
+85-01-8
+129-00-0
+2-Methylnaphthalene
+Acenaphthene
+Acenaphthylene
+Anthracene
+Benz[a]anthracene
+Benzo[a]pyrene
+Benzo[b]fluoranthene
+Benzo[g,h,i]perylene
+Benzo[k]fluoranthene
+Chrysene
+Dibenz[a,h]anthracene
+Fluoranthene
+Fluorene
+Indeno(1,2,3-c,d)pyrene
+Naphthalene
+Phenanthrene
+Pyrene
+ND
+ND
+ND
+ND
+ND
+ND
+ND
+ND
+ND
+ND
+ND
+ND
+ND
+ND
+ND
+ND
+ND
+02/27/18
+ug/kg dry
+1
+B8B0701
+8270
+220
+02/27/18
+ug/kg dry
+1
+B8B0701
+8270
+220
+02/27/18
+ug/kg dry
+1
+B8B0701
+8270
+220
+02/27/18
+ug/kg dry
+1
+B8B0701
+8270
+220
+02/27/18
+ug/kg dry
+1
+B8B0701
+8270
+440
+02/27/18
+ug/kg dry
+1
+B8B0701
+8270
+440
+02/27/18
+ug/kg dry
+1
+B8B0701
+8270
+440
+02/27/18
+ug/kg dry
+1
+B8B0701
+8270
+440
+02/27/18
+ug/kg dry
+1
+B8B0701
+8270
+220
+02/27/18
+ug/kg dry
+1
+B8B0701
+8270
+440
+02/27/18
+ug/kg dry
+1
+B8B0701
+8270
+220
+02/27/18
+ug/kg dry
+1
+B8B0701
+8270
+220
+02/27/18
+ug/kg dry
+1
+B8B0701
+8270
+440
+02/27/18
+ug/kg dry
+1
+B8B0701
+8270
+220
+02/27/18
+ug/kg dry
+1
+B8B0701
+8270
+220
+02/27/18
+ug/kg dry
+1
+B8B0701
+8270
+220
+02/27/18
+ug/kg dry
+1
+B8B0701
+8270
+32.9-115
+02/27/18
+B8B0701
+Surrogate: 2-Fluorobiphenyl
+87.8 %
+8270
+31.8-115
+02/27/18
+B8B0701
+Surrogate: Nitrobenzene-d5
+85.0 %
+8270
+38.5-115
+02/27/18
+B8B0701
+Surrogate: p-Terphenyl-d14
+99.3 %
+8270
+Inorganics-General Chemistry
+0.1
+TS
+02/12/18
+% Total Solids
+90.2
+%
+1
+2540 B
+B8B1204
+Lab Work Order # 1802021
+Page 8 of 21
+Page 8 of 21

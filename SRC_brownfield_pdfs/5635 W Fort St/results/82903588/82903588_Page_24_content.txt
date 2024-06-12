@@ -1,0 +1,50 @@
+B AKTPEERLESS
+
+7.8 CORRECTIVE ACTION DISCHARGES
+
+If the corrective action will result in any discharge during its implementation, complete the
+following: (1) Describe the activity(ies) representing the source(s) of the discharge, (2)
+Provide the following information regarding the planned discharges including (a) the
+source of the discharge, (b) location of the discharge, (c) describe any treatment that will be
+performed prior to the discharge, (d) Indicate whether any permits are required for the
+discharge and describe what steps have been taken to obtain the necessary permits, and (e)
+indicate whether any permit exemptions are required for the discharge, and include a copy
+of the Permit Exemption Acceptance.
+
+Not applicable. No corrective actions are planned.
+
+8.0 CLOSURE VERIFICATION SAMPLING
+8.1 SOIL CLOSURE VERIFICATION
+
+A. Describe the soil verification sampling strategy applied at the site by providing the
+
+following:
+
+1. A scaled map which identifies the former extent of the soil contamination, and the
+soil verification sampling locations relative to existing site features.
+
+Refer to Figure 3.
+
+2; For a corrective action involving excavation, a scaled drawing showing the floor and
+
+walls of the excavation and the associated sampling locations. The drawing should
+also depict the subsurface stratigraphy, soil types, fractures, discolored soil
+locations, adjoining conduits or potential migration pathways, and locations of
+former and existing UST system components, as appropriate.
+
+Refer to Figures 3 through 5.
+
+3. A description of how the number and location of samples collected for soil
+verification purposes was established, if your sampling strategy differs from the
+MDEQ Verification of Soil Remediation Guidance Document and Storage Tank
+Division Operational Memorandum No. 9, Groundwater and Soil Closure
+Verification Guidance, provide justification.
+
+The sampling strategy follows the Storage Tank Division Operational Memorandum No. 9.
+
+4. A list of the analytical parameters used to verify the soil remediation.
+
+Parameters used to verify soil remediation include used oil indicator parameters (i.e., benzene,
+ethylbenzene, toluene, and xylenes, trimethylbenzene isomers, 1,2-dibromoethane, 1,2-
+dichloroethane, polynuclear aromatic hydrocarbons, cadmium, chromium, lead, and volatile
+halocarbons.

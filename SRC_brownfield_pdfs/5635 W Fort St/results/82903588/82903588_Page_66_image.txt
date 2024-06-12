@@ -1,0 +1,51 @@
+Order: 51146
+
+Analytical Laboratory Report
+Fibertec ‘ Page: 7 0f 16
+environmental Taboratory Project Number $1146 Date: 08/09/12
+services Laboratory Sample Number: 51146-003 :
+Client Identification: | AKT Peerless Environ. Svcs, Sample Description: UST-2 SOUTH WALL 3° Chain of Custody: 115035
+Inc. - Farm. Hills
+
+Client Project Name: 6513f3-3-70 Sample No: 3 Collect Date: 07/26/12
+Client Project No: NA Sample Matrix: Soil/Solid Collect Time: NA
+
+Sample Comments: Soil results have been calculated and reported on a dry weight basis unless otherwise noted.
+
+Definitions: Q: Qualifier (see definitions at end of report) NA: Not Applicable NN: Parameter not included in NELAC Scope of Analysis.
+
+UST - Used Motor Oils - Volatiles, 5035 (EPA 5035/EPA 8260B) Aliquot ID: 51146-003 Matrix: Soil/Solid Analyst: HLS
+Parameter(s) Result Q Units Reporting Limit Dilution Prep Date Prep Batch Analysis Date Analysis Batch
+28 Tetrachloroethene U pg/kg 50 1.0 08/06/12 VI12HO6B 08/06/12 Vi12HO6B
+
+30. 1,2,4-Trichlorobenzene U yg/kg 250 1.0 08/06/12 VI12HO6B 08/06/12 VI12HO6B
+
+32 1,1,2-Trichloroethane U yg/kg 50 1.0 08/06/12 VI12HO6B 08/06/12 Vi42HO6B
+‘3aTrichlowethene = Ugg 8.00612 VNZHOSB0BEI2 —VINZHO6B
+34. 1,2,3-Trimethylbenzene (NN) U ug/kg 100 1.0 08/06/12 Vi12HO6B 08/06/12 Vi42HO6B
+95.1,24-Trimethyibenzene = Ugh 100.0 8/0612 VIZHOBB—0B/OE/I2—VIIZHO6B
+36. 1,3,5-Trimethylbenzene U yg/kg 100 1.0 08/06/12 Vi12HO6B 08/06/12 VI12HO6B
+‘s7VinyiChiorde = tig 080612 VINZHOBB0BvEI2 —VINZHO6B
+38 Xylenes U g/kg 150 1.0 08/06/12 VI12HO6B 08/06/12 VI42HO6B
+Polynuclear Aromatic Hydrocarbons (PNAs) (EPA 3546/EPA 8270C) Aliquot ID: 51146-003A Matrix: Soil/Solid ; Analyst: TMC
+Parameter(s) Result Q Units Reporting Limit Dilution Prep Date Prep Batch Analysis Date Analysis Batch
+
+2 Acenaphthylene U ug/kg 330 1.0 08/06/12 PS12HO6G 08/06/12 S112HO6A
+
+4, Benzo(a)anthracene U yg/kg 330 1.0 08/06/12 PS12HO6G 08/06/12 S112HO6A
+
+6 Benzo(b)fluoranthene U g/kg 330 1.0 08/06/12 PS12HO6G 08/06/12 $112HO6A
+
+8 Benzo(k)fluoranthene U yg/kg 330 1.0 08/06/12 PS12HO6G 08/06/12 S112HO6A
+
+10. Dibenzo(a,h)anthracene U ug/kg 330 1.0 08/06/12 PS12HO6G 08/06/12 $112HO6A
+
+12 Fluorene U g/kg 330 1.0 08/06/12 PS12HO6G 08/06/12 $112HO6A
+
+14, 2-Methylnaphthalene U yg/kg 330 1.0 08/06/12 PS12HO6G 08/06/12 S112HO6A
+16 Pyrene U ug/kg 330 1.0 08/06/12 PS12HO6G 08/06/12 S112HO6A
+1914 Holloway Drive Holt, MI 48842 T: (17) 699-0345 F: (517) 699-0388
+11766 E. Grand River Brighton, MI 48116 T: (810) 220-3300 F; (810) 220-3311
+8660 S. Mackinaw Trail Cadillac, MI 49601 T: (231) 775-8368 F: (231) 775-8584
+
+DCSID: G-610.13 (03/21/11) labefibertecus RSN: 51146-120809101934

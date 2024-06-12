@@ -1,0 +1,35 @@
+2.2  REMEDIAL EXCAVATION 
+On  January  31,  2018  ERG  began  cutting and  breaking  the  concrete in  the  building  above  the  UST  and 
+excavating the soil above the UST.  
+The soils encountered consisted of brown, fine- to medium-grained sand throughout the UST basin, to 
+approximately  8.5  feet  below  grade  level  (bgl).  ERG  continually  screened  soils  removed  from  the 
+excavation for volatile organic compounds (VOCs) using a photo-ionization detector (PID). Elevated PID 
+levels and petroleum odors was observed below the south end of the UST, approximately 7.5 feet bgl, 
+although the PID levels lessened in depth as the excavation continued. Groundwater was not encountered 
+during excavation. 
+Once the UST was exposed a hole was cut into the tank to determine the contents. It appeared to be filled 
+with soil or flowable fill, and caused the gas monitor to alarm for elevated levels of hydrogen sulfide. The 
+building was evacuated, and proper PPE was provided to sample the UST contents before work continued. 
+The  sample  was  sent  to  Lakeland  Laboratories,  Inc.,  located  in  Pinckney  Michigan  and  analyzed  for 
+reactivity and flashpoint. The results were non-detect and removal activities continued February 1, 2018. 
+The laboratory report is included in Attachment D.  
+The UST was removed from the ground and transported off-site. The tank was in fair condition with several 
+small holes on the bottom near the southern portion of the tank.  
+The excavation continued where safely and feasibly possible until screening samples indicated VOC levels 
+no greater than 50 ppm. Structural safety concerns with site building limited the northern and eastern 
+extent  in  that  area  of  the  excavation.  The  excavation  was  stopped  at  8.5  feet  bgl.  Table  1,  below, 
+summarizes the field screening sampling that guided the excavation. 
+Table 1: Summary of PID Readings 
+|FIELD SCREENING SAMPLE ID|SAMPLE LOCATION / DESCRIPTION|DEPTH (FEET BELOW GRADE)|INITIAL PID READING / FINAL PID READING1 (PPM)|
+|NW (1-2’)|Northwest corner/brown sand|1-2|0.01|
+|NE (1-2’)|Northeast corner/brown sand|1-2|0.01|
+|SE (1-2’)|Southeast corner/ brown sand|1-2|0.02|
+|MW (1-2’)|West wall, mid excavation/brown sand|1-2|0.02|
+|AT (2-3)|Above tank, midway/brown sand|2-3|0.02|
+|ATS (2-3)|Above tank, south end/brown sand|2-3|0.02|
+|ATN (2-3)|Above tank, north end/brown sand|2-3|0.04|
+|MW (4’)|Mid-west wall/brown sand|4|0.04|
+|ATC (3-3.5’)|Above tank, center/brown sand|3-3.5|0.04|
+|BTN (7.5-8’)|Below tank, north/brown sand|7.5-8|20.4|
+|BTS (7.5-8’)|Below tank, south/brown sand|7.5-8|100.8|
+|BTNW (7.5)|Below tank, northwest corner/brown sand|7.5|5.0|

@@ -1,0 +1,51 @@
+aay
+Fibertec
+
+environmental
+
+services
+
+Analytical Laboratory Report Order:
+Laboratory Project Number: 51146 He
+
+51146
+16 of 16
+08/09/12
+
+SSxCEBOMDDS
+
+Spike recovery or precision unusable due to dilution.
+
+The analyte was detected in the associated method blank.
+
+The analyte was detected at a concentration greater than the calibration range, therefore the result is estimated.
+The concentration is an estimated value.
+
+Modified Method
+
+The analyte was not detected at or above the reporting limit.
+
+Matrix Interference has resulted in a raised reporting limit or distorted result.
+
+Results reported on a wet-weight basis.
+
+Value reported is outside QA limits
+
+Exception Summary:
+
+DCSID:
+
+V- —: Recovery in the associated continuing calibration verification sample (CCV) exceeds the lower control limit. Results
+may be biased low.
+ACCY
+a
+& yy
+gj é,
+<i z=
+Accreditation Number.
+E-10395
+1914 Holloway Drive Holt, MI 48842 T: (817) 699-0345 F: (517) 699-0388
+11766 E. Grand River Brighton, MI 48116 T: (810) 220-3300 F: (810) 220-3311
+8660 S. Mackinaw Trail Cadillac, MI 49601 T: (231) 775-8368 F; (231) 775-8584
+
+G-610.13 (03/21/11) labefibertec.us RSN: 51146-120809101934

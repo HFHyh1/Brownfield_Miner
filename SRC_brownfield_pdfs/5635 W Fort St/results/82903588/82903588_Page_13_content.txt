@@ -1,0 +1,48 @@
+MB AKTPEERLESS
+
+used motor oil indicator parameters' to evaluate the nature and extent of adsorbed hydrocarbon
+contamination.
+
+Based on the soil laboratory analytical results, target parameters were not detected above
+applicable MDEQ Part 213 Tier I Risk Based Screening Levels (RBSLs). Refer to Table 1 for a
+summary of the soil analytical results, Figure 6 for a Site Map with Soil Analytical Results, and
+Appendix C for a copy of the laboratory analytical report.
+
+Scope of Assessment
+
+To ensure the accuracy of data collected during on site activities, AKT Peerless implemented
+proper quality assurance/quality control (QA/QC) measures. The QA/QC procedures included,
+but were not limited to, (1) decontamination of sampling equipment before and between
+sampling events, (2) calibration of field equipment, (3) documentation of field activities, and (4)
+sample preservation techniques, and QA/QC sample collection.
+
+Soil Evaluation
+
+The results of AKT Peerless’ soil sampling activities conducted subsequent to the removal of the
+UST system did not identify the presence of chemicals of concern at concentrations above
+applicable MDEQ Part 213 Tier I RBSLs ( Residential Cleanup Criteria); therefore, no further
+evaluation of the study area soil is necessary.
+
+Groundwater Evaluation
+Groundwater was not encountered during UST removal activities.
+
+4.4 SOIL CONDITIONS AND CHARACTERISTICS
+A. Describe the soil encountered in the vadose zone.
+
+The geology encountered during the UST removal activities consisted of medium stiff, brown to
+brown and gray clay from just below the ground surface (bgs) to at least eight feet bgs. The UST
+cavity was backfilled with fine to medium-grained sand to approximately six feet bgs.
+
+B. Describe any soil contamination which has been detected.
+
+During UST removal activities, limited visual evidence of contamination was apparent in the
+underlying soil in close proximity to the UST. AKT Peerless supervised the remedial excavation
+of approximately 10 cubic yards of soil from the area beneath the former UST. The soil was
+manifested, loaded, and transported off-site to Arbor Hills Landfill (Northville, Michigan). AKT
+Peerless collected soil samples from the bottom and sidewalls of the excavation. The samples
+were submitted for laboratory analysis of used motor oil parameters. Concentrations of VOCs,
+PNAs, and metals were detected in the soil; however, the concentrations were below applicable
+MDEQ Part 213 Tier 1 RBSLs.
+
+' Used motor oil parameters include volatile halocarbons, BTEX, TMBs, 1,2-dibromoethane (EDB), 1,2-
+dichloroethane (DCA), PNAs, cadmium, chromium, and lead.

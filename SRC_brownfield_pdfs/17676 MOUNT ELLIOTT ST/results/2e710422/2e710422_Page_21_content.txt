@@ -1,0 +1,69 @@
+         Lakeland Laboratories, Inc.
+8290 Pettysville Road
+Pinckney, MI  48169
+Phone: (734) 878-3400
+FAX: (734) 878-3981
+Certificate of Analysis
+Date: 
+February 1, 2018
+Customer: TSP, LLC
+25000 Capitol
+Redford, MI  48239
+Arnold Tool
+Project Name:
+Project Number: 170545
+Submit Date:
+1/31/2018
+Collection Date: 1/31/2018
+Lab Sample ID: 11878-109102
+Sample ID: 17054.5-01:  UST Contents
+Method
+Reference
+Analysis
+Date
+Parameters
+Result
+LRL
+Units
+Analyst
+RIC Analysis
+Reactive Cyanide
+Reactive Sulfide
+Flashpoint
+pH
+ND
+ND
+DNF
+7.8
+50
+50
+200
+1-14
+mg/Kg
+mg/Kg
+ºF
+SW846 9014
+SW846 9030
+SW846 1010
+SW846 9045C
+1/31/2018
+1/31/2018
+2/1/2018
+1/31/2018
+EDW
+EDW
+EDW
+LLW
+Parameter- The analysis performed or name of the chemical analyzed.
+Result- The reported concentration in the sample at or above reg level
+LRL- Lower Reporting Level
+Units- The unit which corresponds to the reported concentration
+Method Reference- The method used to provide results.
+Lorri White
+Reviewed By:
+Analysis Date- Date the analysis was performed
+Analyst- Initials of the analyst performing the analysis
+Analyst- Initials of the analyst performing the analysis
+ND- Parameter not detected above the reported LRL
+Date:
+2/1/2018

@@ -1,0 +1,13 @@
+|FIELD SCREENING SAMPLE ID|SAMPLE LOCATION / DESCRIPTION|DEPTH (FEET BELOW GRADE)|INITIAL PID READING / FINAL PID READING1 (PPM)|
+|NW (1-2’)|Northwest corner/brown sand|1-2|0.01|
+|NE (1-2’)|Northeast corner/brown sand|1-2|0.01|
+|SE (1-2’)|Southeast corner/ brown sand|1-2|0.02|
+|MW (1-2’)|West wall, mid excavation/brown sand|1-2|0.02|
+|AT (2-3)|Above tank, midway/brown sand|2-3|0.02|
+|ATS (2-3)|Above tank, south end/brown sand|2-3|0.02|
+|ATN (2-3)|Above tank, north end/brown sand|2-3|0.04|
+|MW (4’)|Mid-west wall/brown sand|4|0.04|
+|ATC (3-3.5’)|Above tank, center/brown sand|3-3.5|0.04|
+|BTN (7.5-8’)|Below tank, north/brown sand|7.5-8|20.4|
+|BTS (7.5-8’)|Below tank, south/brown sand|7.5-8|100.8|
+|BTNW (7.5)|Below tank, northwest corner/brown sand|7.5|5.0|

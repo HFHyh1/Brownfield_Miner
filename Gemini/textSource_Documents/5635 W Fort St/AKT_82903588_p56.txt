@@ -1,0 +1,55 @@
+Fi b ert ec Analytical Laboratory Report sina hae
+environmental Laboratory Project Number: $1148 Date: 08/03/12
+services Laboratory Sample Number: 51148-006
+Client Identification: | AKT Peerless Environ. Svcs, Sample Description: TRIP BLANK Chain of Custody: 115036
+Inc. - Farm. Hills
+Client Project Name: 6513f3-3-70 Sample No: 6 Collect Date: 07/26/12
+Client Project No: NA Sample Matrix: Ground Water Collect Time: NA
+Sample Comments:
+Definitions: Q: Qualifier (see definitions at end of report) NA: Not Applicable NN: Parameter not included in NELAC Scope of Analysis.
+Volatile Organic Compounds (VOCs) by GC/MS (EPA 5030B/EPA 8260B) Aliquot ID: 51148-006 Matrix: Ground Water Analyst: HNB
+Parameter(s) Result Q Units Reporting Limit Dilution Prep Date Prep Batch Analysis Date Analysis Batch
+1. Acetone U Hg/L 50 1.0 07/31/12 VB12G31B 07/31/12 VB12G31B
+2 Acrylonitrile U pg/L 2.0 1.0 07/31/12 VB12G31B 07/31/12 VB12G31B
+3 Benzene U pg/L 1.0 1.0 07/31/12 VB12G31B 07/31/12 VB12G31B
+4, Bromobenzene U pg/L 1.0 1.0 07/31/12 VB12G31B 07/31/12 VB12G31B
+5, Bromochloromethane U pg/L 1.0 1.0 07/31/12 VB12G31B 07/31/12 VB12G31B
+6 Bromodichloromethane U pg/L 1.0 1.0 07/31/12 VB12G31B 07/31/12 VB12G31B
+7. Bromoform U ug/L 1.0 1.0 07/31/12 VB12G31B 07/31/12 VB12G31B
+8 Bromomethane U pg/L 5.0 1.0 07/31/12 VB12G31B 07/31/12 VB12G31B
+9 2-Butanone U pg/L 25 1.0 07/31/12 VB12G31B 07/31/12 VB12G31B
+10. n-Butylbenzene U pg/L 1.0 1.0 07/31/12 VB12G31B 07/31/12 VB12G31B
+11. sec-Butylbenzene U pg/L 1.0 1.0 07/31/12 VB12G31B 07/31/12 VB12G31B
+12 tert-Butylbenzene U yg/L 1.0 1.0 07/31/12 VB12G31B 07/31/12 VB12G31B
+13. Carbon Disulfide U yg/L 5.0 1.0 07/31/12 VB12G31B 07/31/12 VB12G31B
+14. Carbon Tetrachloride U pg/L 1.0 1.0 07/31/12 VB12G31B 07/31/12 VB12G31B
+15. Chlorobenzene U yg/L 1.0 1.0 07/31/12 VB12G31B 07/31/12 VB12G31B
+16. Chloroethane U ug/L 5.0 1.0 07/31/12 VB12G31B 07/31/12 VB12G31B
+17. Chloroform U ug/L 1.0 1.0 07/31/12 VB12G31B 07/31/12 VB12G31B
+18 Chloromethane U g/L 5.0 1.0 07/31/12 VB12G31B 07/31/12 VB12G31B
+19. 2-Chlorotoluene U ug/L 5.0 1.0 07/31/12 VB12G31B 07/31/12 VB12G31B
+20. Dibromochloromethane U yg/L 5.0 1.0 07/31/12 VB12G31B 07/31/12 VB12G31B
+21.1,2-Dibromo-3-chloropropane (NN) U yg/L 1.0 1.0 07/31/12 VB12G31B 07/31/12 VB12G31B
+22 Dibromomethane U pg/L 5.0 1.0 07/31/12 VB12G31B 07/31/12 VB12G31B
+23. 1,2-Dichlorobenzene U pg/L 1.0 1.0 07/31/12 VB12G31B 07/31/12 VB12G31B
+24. 1,3-Dichlorobenzene U pg/L 1.0 1.0 07/31/12 VB12G31B 07/31/12 VB12G31B
+25. 1,4-Dichlorobenzene U pg/L 1.0 1.0 07/31/12 VB12G31B 07/31/12 VB12G31B
+26. Dichlorodifluoromethane U Hg/L 5.0 1.0 07/31/12 VB12G31B 07/31/12 VB12G31B
+27.1,1-Dichloroethane U ug/L 1.0 1.0 07/31/12 VB12G31B 07/31/12 VB12G31B
+28.1,2-Dichloroethane U pg/L 1.0 1.0 07/3112 VB12G31B 07/31/12 VB12G31B
+29. 1,1-Dichloroethene U pg/L 1.0 1.0 07/31/12 VB12G31B 07/31/12 VB12G31B
+30. cis-1,2-Dichloroethene U pg/L 1.0 1.0 07/3112 VB12G31B 07/31/12 VB12G31B
+31. trans-1,2-Dichloroethene U pg/L 1.0 1.0 07/3112 VB12G31B 07/31/12 VB12G31B
+32 1,2-Dichloropropane U pg/L 1.0 1.0 07/31/12 VB12G31B 07/31/12 VB12G31B
+33. cis-1,3-Dichloropropene U pg/L 1.0 1.0 07/31/12 VB12G31B 07/31/12 VB12G31B
+34. trans-1,3-Dichloropropene U pg/L 1.0 1.0 07/31/12 VB12G31B 07/31/12 VB12G31B
+35. Ethylbenzene U pg/L 1.0 1.0 07/31/12 VB12G31B 07/31/12 VB12G31B
+36. Ethylene Dibromide U pg/L 1.0 1.0 07/31/12 VB12G31B 07/31/12 VB12G31B
+37. 2-Hexanone U pg/L 50 1.0 07/31/12 VB12G31B 07/31/12 VB12G31B
+38, lsopropyibenzene U pg/L 5.0 1.0 07/31/12 VB12G31B 07/31/12 VB12G31B
+39, Methyl lodide U yg/L 5.0 1.0 07/31/12 VB12G31B 07/31/12 VB12G31B
+1914 Holloway Drive Holt, MI 48842 T: (517) 699-0345 F: (517) 699-0388
+11766 E. Grand River Brighton, MI 48116 T; (810) 220-3300 F: (810) 220-3311
+8660 S. Mackinaw Trail Cadillac, MI 49601 T: (231) 775-8368 F: (231) 775-8584
+
+DCSID: G-610.13 (03/21/11) labefibertec.us RSN: 51148-120803133713
