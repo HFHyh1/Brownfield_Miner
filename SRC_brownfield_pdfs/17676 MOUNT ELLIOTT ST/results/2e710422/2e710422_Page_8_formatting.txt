@@ -1,1 +1,0 @@
-['BCDGEE+Calibri-Bold', 'DFDVPR+Arial,Bold', 'BCDHEE+Calibri-Bold', 13.980000000000018]['BCDFEE+Calibri', 10.980000000000018, 'BCDEEE+Calibri']

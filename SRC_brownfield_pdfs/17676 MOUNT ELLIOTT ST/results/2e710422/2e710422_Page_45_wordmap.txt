@@ -1,4 +1,0 @@
-attachment: 1, [0]
-waste: 1, [2]
-manifest/load: 1, [3]
-tickets: 1, [4]

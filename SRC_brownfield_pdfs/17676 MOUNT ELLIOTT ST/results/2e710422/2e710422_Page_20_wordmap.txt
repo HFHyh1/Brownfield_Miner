@@ -1,3 +1,0 @@
-attachment: 1, [0]
-analytical: 1, [2]
-results/tables: 1, [3]

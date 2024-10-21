@@ -50,15 +50,16 @@ print("=======END AREA=======")
 GQuery = GeminiQuery()
 for aSourceDoc in discreteSources:
     GemCSVResponse = ""
+    
     try:
         print("Gemini Reading :  .." + sourcePath + "/" + aSourceDoc.folderSource + "/" + aSourceDoc.fileName)
         docPath = sourcePath + "/" + aSourceDoc.folderSource + "/" + aSourceDoc.fileName
         with open(docPath, "r") as fileReading:
             pageText = fileReading.read()
-            #print(pageText)
+            print(pageText)
             GQuery.queryText = pageText
             GemResponse = GQuery.newCSVQuery()
-            #print(GemResponse)
+            print(GemResponse)
             GemCSVResponse = GemResponse
         print(GemCSVResponse)
         

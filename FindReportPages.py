@@ -69,22 +69,30 @@ def Read_CSV_toList() :
 
 #  check hash named folder
 def wm_getPages(pdfdoc: Parse_PDF_item) -> list[str] :
-    counter = 0 
+    counter = 1 
     pageListReturn : list[str] = []
     print(pdfdoc.fullFilePath)
-    while counter < int(pdfdoc.totalPages) :
+    while counter <= int(pdfdoc.totalPages) :
         pageListReturn.append(f"SRC_brownfield_pdfs/{pdfdoc.folderSource}/results/{pdfdoc.hashValue}/{pdfdoc.hashValue}_Page_{counter}_wordmap.txt")
         counter+=1
     return pageListReturn
 
 #  check each page wordmap
 def wm_readPage(_filepath : str) -> bool :
-    threshold: int = 2
+    threshold: int = 1
     wordSignal : float = 0.00
     allwords: list[str] = []
     referencewords: list[str] = [
         "benzene",
         "methane",
+        "toluene",
+        "ethylbenzene",
+        "xylenes",
+        "trichloroethylene",
+        "tetrachloroethylene",
+        "Facility ID",
+        "Facility",
+        "FACILITY"
     ] 
     #read each line to a list
     with open(_filepath, "r", encoding="utf-8") as file1:
@@ -111,7 +119,7 @@ def wm_readPage(_filepath : str) -> bool :
             pass
     
     print(f"Page Score: {wordSignal}")
-    if wordSignal > 5:
+    if wordSignal > threshold:
         return True
     else:
         return False

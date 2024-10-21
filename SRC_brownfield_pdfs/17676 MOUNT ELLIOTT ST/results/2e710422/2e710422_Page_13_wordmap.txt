@@ -1,8 +1,0 @@
-attachment: 1, [0]
-underground: 1, [2]
-storage: 1, [3]
-tank: 1, [4]
-system: 1, [5]
-site: 1, [6]
-assessment: 1, [7]
-report: 1, [8]

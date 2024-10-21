@@ -272,7 +272,7 @@ class TextExtractor:
 
 
             # Create the key of the dictionary
-            dctkey = 'Page_'+str(pagenum)
+            dctkey = 'Page_'+str(pagenum+1)
             # Add the list of list as the value of the page key
             text_per_page[dctkey]= [page_text, line_format, text_from_images,text_from_tables, page_content]
 

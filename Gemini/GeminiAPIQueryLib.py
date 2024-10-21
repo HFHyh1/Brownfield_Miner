@@ -4,7 +4,7 @@ from google.generativeai.types import HarmCategory, HarmBlockThreshold
 class GeminiQuery:
     queryText: str
 
-    genai.configure(api_key="")
+    genai.configure(api_key="AIzaSyBAXyCi2m529Xaq-Nof3lt8zHqFgVkPE_w")
     # replace above with your API key. For more information see Gemini Docs.
 
     model = genai.GenerativeModel(

@@ -1,2 +1,0 @@
-attachment: 1, [0]
-photolog: 1, [2]
