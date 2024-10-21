@@ -84,15 +84,18 @@ def wm_readPage(_filepath : str) -> bool :
     allwords: list[str] = []
     referencewords: list[str] = [
         "benzene",
-        "methane",
-        "toluene",
+        "toulene",
         "ethylbenzene",
-        "xylenes",
+        "xylene",
+        "ethylbenzene",
         "trichloroethylene",
         "tetrachloroethylene",
-        "Facility ID",
-        "Facility",
-        "FACILITY"
+        "M-xylene",
+        "O-xylene",
+        "P-xylene",
+        "Xylenes",
+        "total xylenes",
+        "trichloroethene"
     ] 
     #read each line to a list
     with open(_filepath, "r", encoding="utf-8") as file1:
@@ -104,19 +107,36 @@ def wm_readPage(_filepath : str) -> bool :
     #compare list against fuzzy match reference string list. Add up signals.
     for aword in allwords : 
         if len(aword) > 5:
+            
+            mainwords1 = fuzz.partial_ratio(aword.upper(), "UNITS")
+            mainwords2 = fuzz.partial_ratio(aword.upper(), "DILUTION")
+            mainwords3 = fuzz.partial_ratio(aword.upper(), "RESULT")
+            mainwords4 = fuzz.partial_ratio(aword.upper(), "RESULTS")
+
+            if (mainwords1 > 90 or mainwords2 > 90 or (mainwords3 > 90 or mainwords4 > 90)) :
+                print(mainwords1)
+                print(mainwords2)
+                print(mainwords3)
+                print(mainwords4)
+                #input(f"mainwords found: {aword.upper()}")
+                wordSignal += 5
+                pass
             for refword in referencewords:
-                fuzyyzig = fuzz.partial_ratio(aword, refword)
+                fuzyyzig = fuzz.partial_ratio(aword.upper().strip(), refword.upper().strip())
                 if fuzyyzig > 90 :
                     print(f"word is {aword} with {refword} SCORE: {fuzyyzig}")
                     wordSignal+=1
                 else:
                     pass
+
+                
             if referencewords.count(aword) > 0 :
                 wordSignal+=referencewords.count(aword)
             else:
                 pass
         else:
             pass
+
     
     print(f"Page Score: {wordSignal}")
     if wordSignal > threshold:
@@ -174,11 +194,16 @@ for listItem in discretePDFs :
     print(listItem.totalPages)
     allPages = wm_getPages(listItem)
 
-    counter = 0
+    counter = 1
     #now process each page
     for apage in allPages:
         statusPage = wm_readPage(apage)
-        if statusPage:
+        firstpage = False
+        if counter < 4 : 
+            firstpage = True
+            pass
+
+        if statusPage or firstpage:
             newPageEntry = Page_toSave(
                 f"SRC_brownfield_pdfs/{listItem.folderSource}/results/{listItem.hashValue}/{listItem.hashValue}_Page_{counter}_content.txt",
                 f"{listItem.hashValue}",
