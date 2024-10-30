@@ -179,7 +179,7 @@ class TextExtractor:
         text_per_page = {}
         # We extract the pages from the PDF
         for pagenum, page in enumerate(extract_pages(fPDFPath + fPDFFilename)):
-            print(f"processing page - {pagenum}")
+            print(f"processing page - {pagenum} of {self.pagesDoc}")
             # Initialize the variables needed for the text extraction from the page
             pageObj = pdfReaded.pages[pagenum]
             page_text = []
@@ -318,7 +318,7 @@ class TextExtractor:
         pass
 
     def MainFuncFromTruemanForText (self, fPDFPath, fPDFFilename) :
-        input("doing Truemans func")
+        print("TextOnly - Truemans func")
 
         print(f"{datetime.now()} -- processing doc: " + fPDFPath + fPDFFilename)
 
