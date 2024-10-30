@@ -137,6 +137,13 @@ Copy checked result files to a directory that will be read by SAS program.
 # Credits
 
 **Python Libraries:**
+**Requirements:**
+
+Poppler -> installed and added to PATH. ver 23
+https://github.com/oschwartz10612/poppler-windows/releases/
+S:\...PATH-TO-ZIP...\poppler-24.08.0\Library\bin
+Tesseract OCR -> Install exe as well as the python wrapper. Add to PATH.
+https://github.com/UB-Mannheim/tesseract/wiki
 
 **Special Thanks..**
 

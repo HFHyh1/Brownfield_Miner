@@ -1,5 +1,6 @@
 # To read the PDF
 import PyPDF2
+import pypdfium2 as pdfium
 # To analyze the PDF layout and extract text
 from pdfminer.high_level import extract_pages, extract_text
 from pdfminer.layout import LTTextContainer, LTChar, LTRect, LTFigure
@@ -90,7 +91,7 @@ class TextExtractor:
 
     # Create a function to convert the PDF to images
     def convert_to_images(self, input_file,):
-        images = convert_from_path(input_file)
+        images = convert_from_path(input_file, poppler_path = r"C:\Users\yhussai1\AppData\Local\Programs\Release-24\poppler-24.08.0\Library\bin")
         image = images[0]
         output_file = "PDF_image.png"
         image.save(output_file, "PNG")
@@ -314,12 +315,43 @@ class TextExtractor:
         # Deleting the additional files created
         os.remove('cropped_image.pdf')
         os.remove('PDF_image.png')
+        pass
 
+    def MainFuncFromTruemanForText (self, fPDFPath, fPDFFilename) :
+        input("doing Truemans func")
+
+        print(f"{datetime.now()} -- processing doc: " + fPDFPath + fPDFFilename)
+
+        pdf = pdfium.PdfDocument(fPDFPath + fPDFFilename)
+        n_pages = len(pdf)  # get the number of pages in the document
+        print(n_pages)
+        print(self.pagesDoc)
+        self.Logger(f"SRC_brownfield_pdfs/{self.parentFolder}/results/{self.hashedName}/{self.hashedName}_Ident.txt",[self.filename, "  |  " + self.parentFolder, f" | Pages: {self.pagesDoc}", f" | is text: {self.IsTextDoc}"])
+        #  for each page we will be outputting directly
+        for pageNum in range(self.pagesDoc) :
+            print(f"processing page - {pageNum + 1} of {self.pagesDoc}")
+            page = pdf[pageNum]  # load a page
+            # Load a text page helper
+            textpage = page.get_textpage()
+            # Extract text from the whole page
+            text_all = textpage.get_text_range()            
+
+            with open(f"SRC_brownfield_pdfs/{self.parentFolder}/results/{self.hashedName}/{self.hashedName}_Page_{pageNum + 1}_content.txt", "w", encoding="utf-8") as file1:
+                print("page content")
+                file1.write(text_all)
+                pass
+            #finally create a wordmap of the page contents
+            print("creating wordmap")
+            self.count_word_occurrences_with_locations(f"SRC_brownfield_pdfs/{self.parentFolder}/results/{self.hashedName}/{self.hashedName}_Page_{pageNum + 1}_content.txt", f"SRC_brownfield_pdfs/{self.parentFolder}/results/{self.hashedName}/{self.hashedName}_Page_{pageNum + 1}_wordmap.txt")
+            pass
+        pass
 
     def ProcessExtractPDFs(self) -> bool:
-        totalFiles = len(self.all_files)
-        filecounter = 0
-        for document in self.all_files :
+        
+        try:
+            totalFiles = len(self.all_files)
+            filecounter = 0
+            for document in self.all_files :
                 filecounter+=1
                 print(f"processing file ({filecounter} of {totalFiles})")
                 self.filename = document.fileName
@@ -328,10 +360,16 @@ class TextExtractor:
                 self.pdf_path = document.fullFilePath
                 self.pagesDoc = document.totalPages
                 self.IsTextDoc = document.isPDFText
-                self.MainFunc(('SRC_brownfield_pdfs/' + document.folderSource + '/'), document.fileName, document.hashValue)
-        try:
-            
+
+                if self.IsTextDoc == True :
+                    #Trueman's function
+                    self.MainFuncFromTruemanForText(('SRC_brownfield_pdfs/' + document.folderSource + '/'), document.fileName)
+                    pass
+                else:
+                    self.MainFunc(('SRC_brownfield_pdfs/' + document.folderSource + '/'), document.fileName, document.hashValue)
+                    pass
             return True
+        
         except Exception as e:
             print(e)
             return False
