@@ -7,7 +7,7 @@ from pdfminer.layout import LTTextContainer, LTChar, LTRect, LTFigure
 # To extract text from tables in PDF
 import pdfplumber
 # To extract the images from the PDFs
-from PIL import Image
+from PIL import Image, ImageOps
 from pdf2image import convert_from_path
 # To perform OCR to extract text from images 
 import pytesseract 
@@ -100,8 +100,14 @@ class TextExtractor:
     def image_to_text(self, image_path):
         # Read the image
         img = Image.open(image_path)
-        # Extract the text from the image
-        text = pytesseract.image_to_string(img)
+        # Convert to grayscale
+        grayscaleVersion = ImageOps.grayscale(img)
+        grayscaleVersion.save("PDF_image_GS.png", "PNG")
+
+        # Read the grayscale version
+        imgGS = Image.open("PDF_image_GS.png")
+        # Extract the text from the grayscale image
+        text = pytesseract.image_to_string(imgGS)
         return text
 
     # Extracting tables from the page

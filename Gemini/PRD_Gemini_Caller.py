@@ -42,7 +42,7 @@ for afolder in foldersToCheck:
             print("some filesystem error")
 
 
-
+input("Ready?")
 print("=======ALL ENTRIES=======")
 print(discreteSources) # KEY LIST OF ALL ENTRIES
 print("=======END AREA=======")
@@ -50,18 +50,19 @@ print("=======END AREA=======")
 GQuery = GeminiQuery()
 for aSourceDoc in discreteSources:
     GemCSVResponse = ""
-    
+    input("next doc? ")
+    print("Gemini Reading :  .." + sourcePath + "/" + aSourceDoc.folderSource + "/" + aSourceDoc.fileName)
+    docPath = sourcePath + "/" + aSourceDoc.folderSource + "/" + aSourceDoc.fileName
+    with open(docPath, "r") as fileReading:
+        pageText = fileReading.read()
+        print(pageText)
+        GQuery.queryText = pageText
+        GemResponse = GQuery.newCSVQuery()
+        print(GemResponse)
+        GemCSVResponse = GemResponse
+    print(GemCSVResponse)
     try:
-        print("Gemini Reading :  .." + sourcePath + "/" + aSourceDoc.folderSource + "/" + aSourceDoc.fileName)
-        docPath = sourcePath + "/" + aSourceDoc.folderSource + "/" + aSourceDoc.fileName
-        with open(docPath, "r") as fileReading:
-            pageText = fileReading.read()
-            print(pageText)
-            GQuery.queryText = pageText
-            GemResponse = GQuery.newCSVQuery()
-            print(GemResponse)
-            GemCSVResponse = GemResponse
-        print(GemCSVResponse)
+        
         
         endDocPath = endPath + "/" + aSourceDoc.folderSource + "/" + aSourceDoc.fileName
         with open(endDocPath, "w", encoding="utf-8") as fileWriting:
