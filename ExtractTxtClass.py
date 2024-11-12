@@ -18,7 +18,6 @@ from datetime import datetime
 import string
 from Lookups import mostCommonWords
 
-import string
 
 @dataclass
 class Parse_PDF_item:
