@@ -137,5 +137,5 @@ for _file in allFiles :
         shutil.copy(itemFilepath, destFilepath)
         pass
     counter+=1
-    input("continue?")
+    #input("continue?")
     pass
