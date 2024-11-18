@@ -2,7 +2,7 @@ import os
 from dataclasses import dataclass
 from GeminiAPIQueryLib import GeminiQuery
 
-sourcePath = "textSource_Documents"
+sourcePath = "CSV_Results"
 endPath = "CSV_Results"
 foldersToCheck = []
 discreteSources = []
@@ -28,10 +28,6 @@ print(foldersToCheck)
 
 #   this gets all filenames
 for afolder in foldersToCheck:
-    try:
-        os.mkdir(endPath + "/" + afolder)
-    except OSError as error:  
-        print(error) 
 
     for afilename in os.listdir(sourcePath + "/" + afolder):
         try:
@@ -47,35 +43,10 @@ print("=======ALL ENTRIES=======")
 print(discreteSources) # KEY LIST OF ALL ENTRIES
 print("=======END AREA=======")
 
-GQuery = GeminiQuery()
-for aSourceDoc in discreteSources:
-    GemCSVResponse = ""
-    #input("next doc? ")
-    print("Gemini Reading :  .." + sourcePath + "/" + aSourceDoc.folderSource + "/" + aSourceDoc.fileName)
-    docPath = sourcePath + "/" + aSourceDoc.folderSource + "/" + aSourceDoc.fileName
-    with open(docPath, "r") as fileReading:
-        pageText = fileReading.read()
-        print(pageText)
-        GQuery.queryText = pageText
-        GemResponse = GQuery.newCSVQuery()
-        print(GemResponse)
-        GemCSVResponse = GemResponse
-    #print(GemCSVResponse)
-    try:
-        
-        
-        endDocPath = endPath + "/" + aSourceDoc.folderSource + "/" + aSourceDoc.fileName
-        with open(endDocPath, "w", encoding="utf-8") as fileWriting:
-            fileWriting.write(GemCSVResponse)
-            writtenFiles.append(aSourceDoc)
-        pass
-    except:
-        print("Gemini Error.")
-        pass
 input("====NOW CLEANING STEP====")
 
 #final file writing step      
-for aResultDoc in writtenFiles:
+for aResultDoc in discreteSources:
     #get the data needed to clean - report type and new name
     resultDocPath = endPath + "/" + aResultDoc.folderSource + "/" + aResultDoc.fileName
     fileparts = aResultDoc.fileName.split("_")
@@ -96,7 +67,7 @@ for aResultDoc in writtenFiles:
         with open(resultDocPath, "r", encoding="utf-8") as writtenText :
             #remove the first and the last items from the text document. Also remove the header row, which will be replaced.
             allLines = writtenText.readlines()
-            allLines.pop(len(allLines)-1)
+            allLines.pop(len(allLines)-2)
             allLines.pop(0)
             rewriteLines = allLines
             pass
